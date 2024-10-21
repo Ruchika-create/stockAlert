@@ -1,0 +1,65 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .home-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .market-overview {
+    margin-bottom: 20px;
+  }
+  
+  .category-toggle button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .category-toggle button:hover {
+    background-color: #0056b3;
+  }
+  
+  .index-buttons button, .stock-buttons button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    cursor: pointer;
+  }
+
+  .index-buttons button:hover, .stock-buttons button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .chart-section {
+    margin-top: 20px;
+  }
+  

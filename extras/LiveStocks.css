@@ -1,0 +1,21 @@
+.live-stocks {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .live-stocks table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .live-stocks th,
+  .live-stocks td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .live-stocks th {
+    background-color: #f4f4f4;
+  }
+  
